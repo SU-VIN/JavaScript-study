@@ -6,14 +6,23 @@ function solution(s, n) {
         if(s[i]==' '){
             answer+=' ';
         }
-        //소문자일때
-        var ck = s[i].tolowercase();
-        if(ck===s[i]){
-            
+        for(let j =0;j<alpah.length;j++){
+            //소문자일때
+            if(s[i]===alpah[j]){
+                answer+=alpah[j+n];
+
+            }
+            if(s[i].toUpperCase()){
+                //대문자일때
+                if(s[i]===alpah[j].toUpperCase()){
+                    answer+=alpah[j+n].toUpperCase();
+                }
+            }
+
         }
     }
     return answer;
 }
-s = "a B a";
+s = "a B z";
 n = 4;
 console.log(solution(s,n));
