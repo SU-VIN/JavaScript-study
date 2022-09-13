@@ -1,3 +1,4 @@
+//올바른 괄호
 function solution(s){
     let count =0;
     for(let i =0;i<s.length;i++){
