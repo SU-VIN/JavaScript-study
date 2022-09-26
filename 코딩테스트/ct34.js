@@ -1,3 +1,4 @@
+//구명보트
 function solution(people, limit) {
     var count =0;
     people= people.sort((a,b)=>b-a);
