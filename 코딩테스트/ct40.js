@@ -1,3 +1,4 @@
+//짝지어 제거하기
 function solution(s)
 {
     var arr = [];
