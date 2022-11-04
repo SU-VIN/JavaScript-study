@@ -10,3 +10,4 @@ const filter1 = num.filter(currentNumber => currentNumber % 2 === 1);
 console.log(filter1);
 
 console.log("오늘은 쉬어가는날. 수빈아 사랑해");
+console.log("하루 더 쉽니다 ㅎㅎ!");
